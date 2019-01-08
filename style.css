@@ -17,19 +17,34 @@ li {
 {
     display: flex;
     flex-direction: column;
+    height: 600px;
 }
 
 .app {
     background-image: url(app.png);
 }
 
-.header {
-    justify-content: center;
-}
-
-
 
 .body {
     margin: auto;
+
 }
+
+.search-button {
+    display: flex;
+    flex-direction: row;
+}
+
+div#button1 {
+    width: 45%;
+    margin: 10px 10% 10px 2%;
+
+}
+
+div#button2 {
+    width: 45%;
+    margin: 10px 10% 10px 2%;
+    
+}
+
 
