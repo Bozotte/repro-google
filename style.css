@@ -39,17 +39,17 @@ background-image: url(app.png);
 
 .search-button {
     display: flex;
+    justify-content: space-around;
+    padding: 0px 20% 0px 20%;
 }
 
 div#button1 {
-    width: 45%;
-    margin: 10px 10% 10px 2%;
+    margin: 10px 6% 10px 10%;
     
 }
 
 div#button2 {
-    width: 45%;
-    margin: 10px 10% 10px 2%;
+    margin: 10px 10% 10px 6%;
 
 }
 
@@ -91,9 +91,10 @@ input[type=submit] {
 
 .footer {
     display: flex;
+    justify-content: space-between;
     }
 
-.gauche {
+/*.gauche {
     display: flex;
     align-content: flex-start;
 }
@@ -102,4 +103,9 @@ input[type=submit] {
     display: flex;
     align-content: flex-end;
 
+} */
+
+.conex {
+    background-color: blue
+    color: white;
 }
